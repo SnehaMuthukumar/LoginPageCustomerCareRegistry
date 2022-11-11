@@ -11,12 +11,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	{% for message in get_flashed_messages() %}
-			<div class="alert alert-success alert-dismissible fade show" role="alert">
-				{{message}}
-				<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-			  </div>
-			{% endfor %}
 	<img class="wave" src="../static/wave.png">
 	<div class="container">
 		<div class="img">
